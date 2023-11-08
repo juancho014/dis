@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- include('../partials/meta')%>
+</head>
+<body>
+    <h1>Formulario de Correo Electrónico</h1>
+    <form class="emailForm" >
+        <label>
+            nombre
+            <input type="text" name="name">
+        </label>
+        
+        <label >
+            email
+            <input type="email" name="email">
+        </label>
+         
+        <textarea type="text" name="message">
+        </textarea>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+<script src="/js/mainEmail.js"></script>
+
+</html>
