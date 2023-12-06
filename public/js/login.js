@@ -17,7 +17,8 @@ form.addEventListener('submit',(e)=>{
         'Content-Type':'application/json'
     }
   }).then((res)=>{if(res.ok){
-    alert( 'bienvenido' )
+    alert( 'bienvenido' );
+    
     form.reset();
   }else{
     alert('hubo un error al ingresar un dato')
